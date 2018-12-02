@@ -1,0 +1,942 @@
+
+.stage {
+  width: 39.5em;
+	height: 556px;
+  top: 10%;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+#output {
+  width: 138.5em;
+  height: 640px;
+  top: 25%;
+	margin: auto;
+	background: black;
+	position: relative;
+  color: white;
+  font-size: 50%;
+  overflow: hidden;
+}
+
+#input {
+  width: 434.5px;
+  height: 25px;
+  margin: auto;
+  top: 18%;
+  left: 33%;
+  position: absolute;
+  background-color: black;
+  border-bottom-width: medium;
+  border-color: black black white;
+  color: white;
+  font: Arial;
+  font-variant: small-caps;
+}
+
+#input:focus {
+  outline: none;
+}
+
+#output div[class^="LetterBox"]:hover{
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+  color: red;
+}
+
+#group2 div[class^="LetterBox"]:not(.scale):hover{
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+#output div[class^="PUNCBOX"]:hover{
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+  color: red;
+}
+
+
+.WORK {
+  color:white;
+  font-size: 150%;
+  margin-left: 50px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.presentation {
+  color:white;
+  font-size: 50%;
+  margin-left: 50px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.projects {
+  color:white;
+  font-size: 100%;
+  margin-left: 50px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.CONTAINER {
+	position: relative;
+	width: 200vh;
+	float: left;
+}
+
+.VANGUARD {
+  color: red;
+  font-size: 6pt;
+  margin-left: 50px;
+  margin-top: 50px;
+  position: relative;
+  padding: 10px;
+}
+
+.STRESS {
+  color: red;
+  font-size: 6pt;
+  margin-left: 50px;
+  margin-top: 200px;
+  position: relative;
+  padding: 10px;
+}
+.ITRAINED {
+  color: red;
+  font-size: 6pt;
+  margin-left: 50px;
+  margin-top: 200px;
+  position: relative;
+  padding: 10px;
+}
+
+
+a {
+  color: red;
+  font: Arial;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-decoration: none;
+}
+
+div[class^="LetterBox"] {
+	float: left;
+  font: 100% / 1.5 Arial color:white;
+}
+
+div[class^="PUNCBOX"] {
+	float: left;
+  font: 100% / 1.5 Arial color:white;
+}
+
+#myCanvas {
+	position: absolute;
+	width: auto;
+	height: auto;
+}
+
+.scale {
+  transition: all .1s ease-in-out;
+  transform: scale(3.2);
+  width: 3.5em;
+  top: 50%;
+  left: 35%;
+  position: absolute;
+  z-index: 1;
+  background-image: url("assets/grid.jpg");
+  background-size: 1em 1em;
+}
+
+.LetterBoxA.scale {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxB.scale {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxC.scale {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxD.scale {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxE.scale {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxF.scale {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 0em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxG.scale {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxH.scale {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxI.scale {
+  width: 1.5em;
+	height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxJ.scale {
+  width: 1.5em;
+	height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxK.scale {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxL.scale {
+  width: 1.5em;
+	height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxM.scale {
+	width: 7.5em;
+	height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxN.scale {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxO.scale {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxP.scale {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxQ.scale {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxR.scale {
+	width: 3.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxS.scale {
+  width: 3.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxT.scale {
+  width: 2.5em;
+	height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxU.scale {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxV.scale {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxW.scale {
+	width: 7.5em;
+	height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxX.scale {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxY.scale {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.LetterBoxZ.scale {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 0em 1.5em;
+	position: relative;
+}
+
+.PUNCBOX1 {
+	width: 1.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.COMMA{
+    box-shadow: 0em 8em 0 0.5em, 0em 9em 0 0.5em, -1em 10em 0 0.5em;
+    width: 0;
+    height: 0;
+}
+
+
+
+.PUNCBOX2 {
+	width: 1.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.PERIOD {
+    box-shadow: 0em 8em 0 0.5em;
+    width: 0;
+    height: 0;
+}
+
+.PUNCBOX3 {
+	width: 3.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.QUESTION {
+  box-shadow: inset 0em 0em 0 0.5em, 0em 1em 0 0.5em, 1em 0em 0 0.5em, 1em 1em 0 0.5em, 2em 0em 0 0.5em, 2em 1em 0 0.5em, 3em 1em 0 0.5em, 0em 2em 0 0.5em, 2em 2em 0 0.5em, 3em 2em 0 0.5em, 2em 3em 0 0.5em, 3em 3em 0 0.5em, 2em 4em 0 0.5em, 3em 4em 0 0.5em, 2em 5em 0 0.5em, 1em 5em 0 0.5em, 1em 6em 0 0.5em, 1em 8em 0 0.5em;
+  width: 0;
+  height: 0;
+}
+
+.PUNCBOX4 {
+	width: 1.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+
+.EXCLAMATION {
+    box-shadow: inset 0em 0em 0 0.5em, 0em 1em 0 0.5em, 1em 1em 0 0.5em, 0em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 0em 8em 0 0.5em, 0em 3em 0 0.5em, 1em 2em 0 0.5em, 1em 0em 0 0.5em;
+    width: 0;
+    height: 0;
+}
+
+
+
+.LetterBoxA {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+
+.LetterA {
+  box-shadow: inset 0em 0em 0 0.5em, inset 0em 1em 0 0.5em, 2em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 2em 3em 0 0.5em, 3em 3em 0 0.5em, 1em 4em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 3em 5em 0 0.5em, 4em 5em 0 0.5em, 2em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 4em 6em 0 0.5em, 3em 6em 0 0.5em, 0em 7em 0 0.5em, 1em 7em 0 0.5em, 2em 7em 0 0.5em, 3em 7em 0 0.5em, 4em 7em 0 0.5em, 1em 8em 0 0.5em, 4em 8em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+.special {
+    color: red;
+  }
+
+.LetterBoxB {
+	width: 4.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterB {
+	box-shadow: inset 0em 0em 0 0.5em, 0em 1em 0 0.5em, 0em 2em 0 0.5em, 1em 0em 0 0.5em, 1em 1em 0 0.5em, 1em 2em 0 0.5em, 0em 3em 0 0.5em, 1em 3em 0 0.5em, 2em 3em 0 0.5em, 3em 2em 0 0.5em, 3em 3em 0 0.5em, 4em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 1em 5em 0 0.5em, 0em 5em 0 0.5em, 3em 5em 0 0.5em, 4em 5em 0 0.5em, 2em 7em 0 0.5em, 2em 8em 0 0.5em, 3em 7em 0 0.5em, 1em 7em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 3em 6em 0 0.5em, 4em 6em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+.LetterBoxC {
+	width: 4.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterC {
+box-shadow: inset 0em 0em 0 0.5em, inset 0em 1em 0 0.5em, 2em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 2em 3em 0 0.5em, 3em 3em 0 0.5em, 1em 4em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 2em 8em 0 0.5em, 1em 7em 0 0.5em, 2em 7em 0 0.5em, 3em 7em 0 0.5em, 4em 6em 0 0.5em, 3em 6em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+
+.LetterBoxD {
+	width: 4.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterD {
+  box-shadow: inset 0em 0em 0 0.5em, 1em 0em 0 0.5em, 1em 1em 0 0.5em, 2em 1em 0 0.5em, 2em 2em 0 0.5em, 3em 2em 0 0.5em, 1em 3em 0 0.5em, 2em 3em 0 0.5em, 3em 3em 0 0.5em, 4em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 1em 5em 0 0.5em, 0em 5em 0 0.5em, 3em 5em 0 0.5em, 4em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 3em 6em 0 0.5em, 4em 6em 0 0.5em, 1em 7em 0 0.5em, 2em 7em 0 0.5em, 3em 7em 0 0.5em, 2em 8em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+.LetterBoxE {
+	width: 4.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterE {
+	box-shadow: inset 0em 0em 0 0.5em, inset 0em 1em 0 0.5em, 2em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 2em 3em 0 0.5em, 3em 3em 0 0.5em, 1em 4em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 2em 8em 0 0.5em, 1em 7em 0 0.5em, 2em 7em 0 0.5em, 3em 7em 0 0.5em, 4em 6em 0 0.5em, 3em 5em 0 0.5em, 2em 6em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+
+.LetterBoxF {
+	width: 3.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterF {
+  box-shadow: inset 0em 0em 0 0.5em, 0em 1em 0 0.5em, 1em 0em 0 0.5em, 1em 1em 0 0.5em, 2em 0em 0 0.5em, 3em 0em 0 0.5em, 3em 1em 0 0.5em, 0em 2em 0 0.5em, 1em 2em 0 0.5em, 0em 3em 0 0.5em, 1em 3em 0 0.5em, 2em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 0em 7em 0 0.5em, 1em 7em 0 0.5em, 0em 8em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+
+.LetterBoxG {
+	width: 4.5em;
+  height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterG {
+	box-shadow: inset 0em 0em 0 0.5em, inset 0em 1em 0 0.5em, 2em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 2em 3em 0 0.5em, 3em 3em 0 0.5em, 1em 4em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 0em 8em 0 0.5em, 1em 7em 0 0.5em, 2em 7em 0 0.5em, 3em 7em 0 0.5em, 4em 6em 0 0.5em, 3em 5em 0 0.5em, 4em 5em 0 0.5em, 3em 6em 0 0.5em, 1em 8em 0 0.5em, 3em 8em 0 0.5em, 4em 7em 0 0.5em, 4em 8em 0 0.5em, 1em 9em 0 0.5em, 3em 9em 0 0.5em, 2em 9em 0 0.5em, 2em 10em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+
+.LetterBoxH {
+	width: 4.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterH {
+  box-shadow: inset 0em 0em 0 0.5em, 0em 1em 0 0.5em, 0em 2em 0 0.5em, 1em 0em 0 0.5em, 1em 1em 0 0.5em, 1em 2em 0 0.5em, 0em 3em 0 0.5em, 1em 3em 0 0.5em, 2em 3em 0 0.5em, 3em 2em 0 0.5em, 3em 3em 0 0.5em, 4em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 1em 5em 0 0.5em, 0em 5em 0 0.5em, 3em 5em 0 0.5em, 4em 5em 0 0.5em, 3em 7em 0 0.5em, 0em 8em 0 0.5em, 0em 7em 0 0.5em, 1em 7em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 3em 6em 0 0.5em, 4em 6em 0 0.5em, 4em 7em 0 0.5em, 3em 8em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+.LetterBoxI {
+  width: 1.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterI {
+  box-shadow: inset 0em 0em 0 0.5em, 0em 1em 0 0.5em, 1em 1em 0 0.5em, 0em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 0em 7em 0 0.5em, 1em 7em 0 0.5em, 0em 8em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+.LetterBoxJ {
+	width: 1.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterJ {
+  box-shadow: inset 0em 0em 0 0.5em, 0em 1em 0 0.5em, 1em 1em 0 0.5em, 0em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 0em 7em 0 0.5em, 1em 7em 0 0.5em, 0em 8em 0 0.5em, 1em 8em 0 0.5em, 0em 9em 0 0.5em, -1em 10em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+.LetterBoxK {
+	width: 4.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterK {
+  box-shadow: inset 0em 0em 0 0.5em, 0em 1em 0 0.5em, 1em 1em 0 0.5em, 0em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 0em 7em 0 0.5em, 1em 7em 0 0.5em, 0em 8em 0 0.5em, 0em 3em 0 0.5em, 1em 2em 0 0.5em, 1em 0em 0 0.5em, 2em 5em 0 0.5em, 3em 5em 0 0.5em, 3em 6em 0 0.5em, 3em 7em 0 0.5em, 3em 8em 0 0.5em, 4em 6em 0 0.5em, 4em 7em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 3em 3em 0 0.5em, 4em 3em 0 0.5em, 4em 2em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+
+.LetterBoxL {
+	width: 1.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterL {
+  box-shadow: inset 0em 0em 0 0.5em, 0em 1em 0 0.5em, 1em 1em 0 0.5em, 0em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 0em 7em 0 0.5em, 1em 7em 0 0.5em, 0em 8em 0 0.5em, 0em 3em 0 0.5em, 1em 2em 0 0.5em, 1em 0em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+.LetterBoxM {
+	width: 7.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterM {
+	box-shadow: inset 0em 0em 0 0.5em, 0em 3em 0 0.5em, 1em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 0em 7em 0 0.5em, 1em 7em 0 0.5em, 0em 8em 0 0.5em, 2em 3em 0 0.5em, 3em 2em 0 0.5em, 3em 3em 0 0.5em, 4em 3em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 3em 5em 0 0.5em, 4em 5em 0 0.5em, 3em 6em 0 0.5em, 4em 6em 0 0.5em, 4em 7em 0 0.5em, 3em 7em 0 0.5em, 3em 8em 0 0.5em, 5em 3em 0 0.5em, 6em 2em 0 0.5em, 6em 3em 0 0.5em, 7em 3em 0 0.5em, 6em 4em 0 0.5em, 7em 4em 0 0.5em, 6em 5em 0 0.5em, 7em 5em 0 0.5em, 6em 6em 0 0.5em, 7em 6em 0 0.5em, 6em 7em 0 0.5em, 7em 7em 0 0.5em, 6em 8em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+.LetterBoxN {
+	width: 4.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterN {
+	box-shadow: inset 0em 0em 0 0.5em, 0em 3em 0 0.5em, 1em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 0em 7em 0 0.5em, 1em 7em 0 0.5em, 0em 8em 0 0.5em, 2em 3em 0 0.5em, 3em 2em 0 0.5em, 3em 3em 0 0.5em, 4em 3em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 3em 5em 0 0.5em, 4em 5em 0 0.5em, 3em 6em 0 0.5em, 4em 6em 0 0.5em, 4em 7em 0 0.5em, 3em 7em 0 0.5em, 3em 8em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+
+.LetterBoxO {
+	width: 4.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterO {
+  box-shadow: inset 0em 0em 0 0.5em, inset 0em 1em 0 0.5em, 2em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 2em 3em 0 0.5em, 3em 3em 0 0.5em, 1em 4em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 2em 8em 0 0.5em, 1em 7em 0 0.5em, 2em 7em 0 0.5em, 3em 7em 0 0.5em, 4em 6em 0 0.5em, 3em 5em 0 0.5em, 4em 5em 0 0.5em, 3em 6em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+
+.LetterBoxP {
+	width: 4.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterP {
+  box-shadow: inset 0em 0em 0 0.5em, 0em 3em 0 0.5em, 1em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 0em 7em 0 0.5em, 1em 7em 0 0.5em, 0em 8em 0 0.5em, 2em 3em 0 0.5em, 3em 2em 0 0.5em, 3em 3em 0 0.5em, 4em 3em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 3em 5em 0 0.5em, 4em 5em 0 0.5em, 3em 6em 0 0.5em, 4em 6em 0 0.5em, 4em 7em 0 0.5em, 3em 7em 0 0.5em, 3em 8em 0 0.5em, 2em 7em 0 0.5em, 1em 8em 0 0.5em, 0em 9em 0 0.5em, 1em 9em 0 0.5em, 0em 10em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+
+.LetterBoxQ {
+	width: 4.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterQ {
+	box-shadow: inset 0em 0em 0 0.5em, inset 0em 1em 0 0.5em, 2em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 2em 3em 0 0.5em, 3em 3em 0 0.5em, 1em 4em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 1em 8em 0 0.5em, 1em 7em 0 0.5em, 2em 7em 0 0.5em, 3em 7em 0 0.5em, 4em 6em 0 0.5em, 3em 5em 0 0.5em, 4em 5em 0 0.5em, 3em 6em 0 0.5em, 0em 7em 0 0.5em, 4em 7em 0 0.5em, 3em 8em 0 0.5em, 4em 8em 0 0.5em, 3em 9em 0 0.5em, 4em 9em 0 0.5em, 4em 10em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+.LetterBoxR {
+	width: 3.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterR {
+	box-shadow: inset 0em 0em 0 0.5em, 0em 3em 0 0.5em, 1em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 0em 7em 0 0.5em, 1em 7em 0 0.5em, 0em 8em 0 0.5em, 2em 3em 0 0.5em, 3em 2em 0 0.5em, 3em 3em 0 0.5em, 3em 4em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+.LetterBoxS {
+	width: 3.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterS {
+	box-shadow: inset 0em 0em 0 0.5em, 0em 3em 0 0.5em, 1em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 2em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 2em 6em 0 0.5em, 0em 7em 0 0.5em, 1em 7em 0 0.5em, 0em 8em 0 0.5em, 2em 3em 0 0.5em, 3em 2em 0 0.5em, 3em 3em 0 0.5em, 3em 4em 0 0.5em, 3em 6em 0 0.5em, 2em 7em 0 0.5em, 2em 8em 0 0.5em, 3em 7em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+.LetterBoxT {
+	width: 2.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterT {
+  box-shadow: inset 0em 0em 0 0.5em, 0em 1em 0 0.5em, 1em 1em 0 0.5em, 0em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 0em 7em 0 0.5em, 1em 7em 0 0.5em, 1em 8em 0 0.5em, 0em 3em 0 0.5em, 1em 2em 0 0.5em, 1em 0em 0 0.5em, 2em 7em 0 0.5em, 2em 3em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+
+.LetterBoxU {
+	width: 4.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterU {
+  box-shadow: inset 0em 0em 0 0.5em, 0em 3em 0 0.5em, 1em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 0em 7em 0 0.5em, 1em 7em 0 0.5em, 1em 8em 0 0.5em, 2em 7em 0 0.5em, 4em 2em 0 0.5em, 3em 3em 0 0.5em, 4em 3em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 3em 5em 0 0.5em, 4em 5em 0 0.5em, 3em 6em 0 0.5em, 4em 6em 0 0.5em, 4em 7em 0 0.5em, 3em 7em 0 0.5em, 4em 8em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+
+.LetterBoxV {
+	width: 4.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterV {
+	box-shadow: inset 0em 0em 0 0.5em, 0em 3em 0 0.5em, 1em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 1em 7em 0 0.5em, 2em 7em 0 0.5em, 4em 2em 0 0.5em, 3em 3em 0 0.5em, 4em 3em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 3em 5em 0 0.5em, 4em 5em 0 0.5em, 3em 6em 0 0.5em, 4em 6em 0 0.5em, 3em 7em 0 0.5em, 2em 8em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+
+.LetterBoxW {
+	width: 7.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterW {
+  box-shadow: inset 0em 0em 0 0.5em, 0em 3em 0 0.5em, 1em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 1em 7em 0 0.5em, 2em 7em 0 0.5em, 4em 2em 0 0.5em, 3em 3em 0 0.5em, 4em 3em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 3em 5em 0 0.5em, 4em 5em 0 0.5em, 3em 6em 0 0.5em, 4em 6em 0 0.5em, 3em 7em 0 0.5em, 2em 8em 0 0.5em, 4em 7em 0 0.5em, 5em 8em 0 0.5em, 5em 7em 0 0.5em, 6em 7em 0 0.5em, 6em 6em 0 0.5em, 7em 6em 0 0.5em, 6em 5em 0 0.5em, 7em 5em 0 0.5em, 6em 4em 0 0.5em, 7em 4em 0 0.5em, 6em 3em 0 0.5em, 7em 3em 0 0.5em, 7em 2em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+
+.LetterBoxX {
+	width: 4.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterX {
+	box-shadow: inset 0em 0em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 0em 7em 0 0.5em, 1em 7em 0 0.5em, 0em 8em 0 0.5em, 0em 3em 0 0.5em, 1em 2em 0 0.5em, 2em 5em 0 0.5em, 3em 5em 0 0.5em, 3em 6em 0 0.5em, 3em 7em 0 0.5em, 3em 8em 0 0.5em, 4em 6em 0 0.5em, 4em 7em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 3em 3em 0 0.5em, 4em 3em 0 0.5em, 4em 2em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+
+.LetterBoxY {
+	width: 4.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterY {
+  box-shadow: inset 0em 0em 0 0.5em, 0em 3em 0 0.5em, 1em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 1em 7em 0 0.5em, 1em 8em 0 0.5em, 2em 7em 0 0.5em, 4em 2em 0 0.5em, 3em 3em 0 0.5em, 4em 3em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 3em 5em 0 0.5em, 4em 5em 0 0.5em, 3em 6em 0 0.5em, 4em 6em 0 0.5em, 4em 7em 0 0.5em, 3em 7em 0 0.5em, 4em 8em 0 0.5em, 3em 8em 0 0.5em, 0em 8em 0 0.5em, 1em 9em 0 0.5em, 2em 9em 0 0.5em, 3em 9em 0 0.5em, 2em 10em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+
+.LetterBoxZ {
+	width: 4.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.LetterZ {
+	box-shadow: inset 0em 0em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 2em 3em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 1em 6em 0 0.5em, 0em 7em 0 0.5em, 1em 7em 0 0.5em, 0em 8em 0 0.5em, 0em 3em 0 0.5em, 1em 2em 0 0.5em, 2em 5em 0 0.5em, 3em 5em 0 0.5em, 2em 7em 0 0.5em, 3em 7em 0 0.5em, 3em 8em 0 0.5em, 4em 6em 0 0.5em, 4em 7em 0 0.5em, 3em 4em 0 0.5em, 4em 4em 0 0.5em, 3em 3em 0 0.5em, 4em 3em 0 0.5em, 4em 2em 0 0.5em, 2em 8em 0 0.5em, 2em 2em 0 0.5em;
+	width: 0;
+	height: 0;
+}
+
+
+
+.title {
+  position:fixed;
+}
+
+.lastblock {
+  position: relative;
+  margin-top: 200px;
+}
+
+.closing {
+  position: relative;
+  margin-top: 400px;
+}
+  /* Parallax base styles
+  --------------------------------------------- */
+
+  .parallax {
+    height: 500px; /* fallback for older browsers */
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+  }
+
+  .parallax__group {
+    position: relative;
+    height: 500px; /* fallback for older browsers */
+    height: 150vh;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .parallax__layer--fore {
+    -webkit-transform: translateZ(90px) scale(.7);
+    transform: translateZ(90px) scale(.7);
+    z-index: 1;
+  }
+
+  .parallax__layer--base {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 4;
+  }
+
+  .parallax__layer--back {
+    -webkit-transform: translateZ(-300px) scale(2);
+    transform: translateZ(-300px) scale(2);
+    z-index: 3;
+  }
+
+  .parallax__layer--deep {
+    -webkit-transform: translateZ(-600px) scale(3);
+    transform: translateZ(-600px) scale(3);
+    z-index: 2;
+  }
+
+
+  /* Debugger styles - used to show the effect
+  --------------------------------------------- */
+
+  .debug {
+    position: fixed;
+    top: 0;
+    left: .5em;
+    z-index: 999;
+    background: rgba(0,0,0,.85);
+    color: #fff;
+    padding: .5em;
+    border-radius: 0 0 5px 5px;
+  }
+  .debug-on .parallax__group {
+    -webkit-transform: translate3d(800px, 0, -800px) rotateY(30deg);
+    transform: translate3d(700px, 0, -800px) rotateY(30deg);
+ }
+  .debug-on .parallax__layer {
+    box-shadow: 0 0 0 2px #000;
+    opacity: 0.9;
+  }
+  .parallax__group {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+  }
+
+
+  /* demo styles
+  --------------------------------------------- */
+
+  body, html {
+  }
+
+  body {
+    font: 100% / 1.5 Arial;
+    background: black;
+  }
+
+  * {
+    margin:0;
+    padding:0;
+  }
+
+  .parallax {
+    font-size: 100%;
+  }
+
+	.VanguardTitle {
+		top: 100px;
+		position: relative;
+		margin: auto;
+
+	}
+
+
+
+
+   /* centre the content in the parallax layers */
+  .title {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+
+
+  /* style the groups
+  --------------------------------------------- */
+
+  #group1 {
+    z-index: 5; /* slide over group 2 */
+  }
+  #group1 .parallax__layer--base {
+    background: Black;
+  }
+
+  #group2 {
+    z-index: 3; /* slide under groups 1 and 3 */
+  }
+  #group2 .parallax__layer--back {
+    background: white;
+  }
+
+  #group3 {
+    z-index: 4; /* slide over group 2 and 4 */
+    height: 910px;
+  }
+  #group3 .parallax__layer--base {
+    background: black;
+  }
+
+  #group4 {
+    z-index: 2; /* slide under group 3 and 5 */
+  }
+  #group4 .parallax__layer--deep {
+    background: white);
+  }
+
+  #group5 {
+    z-index: 3; /* slide over group 4 and 6 */
+  }
+  #group5 .parallax__layer--base {
+    background: Black;
+  }
+
+  #group6 {
+    z-index: 2; /* slide under group 5 and 7 */
+  }
+  #group6 .parallax__layer--back {
+    background: white;
+  }
+
+  #group7 {
+    z-index: 3; /* slide over group 7 */
+  }
+  #group7 .parallax__layer--base {
+    background: Black;
+    height: 1800px;
+  }
+
+
+  /* misc
+  --------------------------------------------- */
+  .demo__info {
+    position: absolute;
+    z-index:100;
+    bottom: 1vh;
+    top: auto;
+    font-size:80%;
+    text-align:center;
+    width: 100%;
+  }
