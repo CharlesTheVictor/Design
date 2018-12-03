@@ -1,4 +1,18 @@
 
+
+#group1:active {
+  cursor: url('Cursor1.png'), default;
+}
+
+#group2:active {
+  cursor: url('Cursor1.png'), default;
+}
+
+#group3:active {
+  cursor: url('Cursor1.png'), default;
+}
+
+
 .stage {
   width: 39.5em;
 	height: 556px;
@@ -11,13 +25,14 @@
 #output {
   width: 138.5em;
   height: 640px;
-  top: 25%;
-	margin: auto;
-	background: black;
-	position: relative;
+  top: 27%;
+  left: 96.75px;
+  margin: auto;
+  background: black;
+  position: fixed;
   color: white;
   font-size: 50%;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 #input {
@@ -56,81 +71,6 @@
   color: red;
 }
 
-
-.WORK {
-  color:white;
-  font-size: 150%;
-  margin-left: 50px;
-  margin-top: 50px;
-  position: relative;
-}
-
-.presentation {
-  color:white;
-  font-size: 50%;
-  margin-left: 50px;
-  margin-top: 50px;
-  position: relative;
-}
-
-.projects {
-  color:white;
-  font-size: 100%;
-  margin-left: 50px;
-  margin-top: 50px;
-  position: relative;
-}
-
-.CONTAINER {
-	position: relative;
-	width: 200vh;
-	float: left;
-}
-
-.VANGUARD {
-  color: red;
-  font-size: 6pt;
-  margin-left: 50px;
-  margin-top: 50px;
-  position: relative;
-  padding: 10px;
-}
-
-.STRESS {
-  color: red;
-  font-size: 6pt;
-  margin-left: 50px;
-  margin-top: 200px;
-  position: relative;
-  padding: 10px;
-}
-
-.ITRAINED {
-  color: red;
-  font-size: 6pt;
-  margin-left: 50px;
-  margin-top: 200px;
-  position: relative;
-  padding: 10px;
-}
-
-.POLARIS {
-  color: red;
-  font-size: 6pt;
-  margin-left: 50px;
-  margin-top: 200px;
-  position: relative;
-  padding: 10px;
-}
-
-a {
-  color: red;
-  font: Arial;
-  font-weight: bold;
-  font-variant: small-caps;
-  text-decoration: none;
-}
-
 div[class^="LetterBox"] {
 	float: left;
   font: 100% / 1.5 Arial color:white;
@@ -155,7 +95,7 @@ div[class^="PUNCBOX"] {
   left: 35%;
   position: absolute;
   z-index: 1;
-  background-image: url("assets/grid.jpg");
+  background-image: url("grid.jpg");
   background-size: 1em 1em;
 }
 
@@ -391,6 +331,31 @@ div[class^="PUNCBOX"] {
     width: 0;
     height: 0;
 }
+
+.PUNCBOX5 {
+  width: 1.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.COLON {
+  box-shadow: 0em 8em 0 0.5em, 0em 4em 0 0.5em;
+  width: 0;
+  height: 0;
+}
+
+.PUNCBOX6 {
+  width: 1.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.SEMICOLON {
+  box-shadow: 0em 8em 0 0.5em, 0em 4em 0 0.5em, 0em 9em 0 0.5em, -1em 10em 0 0.5em;
+  width: 0;
+  height: 0;
+}
+
 
 
 
@@ -845,11 +810,11 @@ box-shadow: inset 0em 0em 0 0.5em, inset 0em 1em 0 0.5em, 2em 2em 0 0.5em, 1em 3
   --------------------------------------------- */
 
   body, html {
+    overflow: hidden;
   }
 
   body {
     font: 100% / 1.5 Arial;
-    background: black;
   }
 
   * {
@@ -862,10 +827,8 @@ box-shadow: inset 0em 0em 0 0.5em, inset 0em 1em 0 0.5em, 2em 2em 0 0.5em, 1em 3
   }
 
 	.VanguardTitle {
-		top: 100px;
 		position: relative;
 		margin: auto;
-
 	}
 
 
@@ -888,6 +851,8 @@ box-shadow: inset 0em 0em 0 0.5em, inset 0em 1em 0 0.5em, 2em 2em 0 0.5em, 1em 3
 
   #group1 {
     z-index: 5; /* slide over group 2 */
+    cursor: url('Cursor2.png'), default;
+    overflow: hidden;
   }
   #group1 .parallax__layer--base {
     background: Black;
@@ -895,6 +860,7 @@ box-shadow: inset 0em 0em 0 0.5em, inset 0em 1em 0 0.5em, 2em 2em 0 0.5em, 1em 3
 
   #group2 {
     z-index: 3; /* slide under groups 1 and 3 */
+    cursor: url('Cursor3.png'), default;
   }
   #group2 .parallax__layer--back {
     background: white;
@@ -903,6 +869,7 @@ box-shadow: inset 0em 0em 0 0.5em, inset 0em 1em 0 0.5em, 2em 2em 0 0.5em, 1em 3
   #group3 {
     z-index: 4; /* slide over group 2 and 4 */
     height: 910px;
+    cursor: url('Cursor2.png'), default;
   }
   #group3 .parallax__layer--base {
     background: black;

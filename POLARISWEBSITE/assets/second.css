@@ -1,0 +1,8 @@
+@font-face{
+    font-family: "LoRes";
+    src: url('Lo-Res/Lo-Res 12 Bold Alt.ttf'),
+}
+* {
+  margin:0;
+  padding:0;
+}

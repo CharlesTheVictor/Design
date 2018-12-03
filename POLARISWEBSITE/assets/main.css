@@ -37,8 +37,42 @@ canvas {
 }
 .POLARIS {
   position: relative;
+  float: left;
 }
 .BUTTON {
   position: relative;
   float: right;
+}
+
+.CONCERNSBUTTON {
+  position: absolute;
+  margin-left: 130vh;
+  float: right;
+  width: 350px;
+  height: 100px;
+  margin-top: 125px;
+  z-index: 2;
+}
+.PRIVATEBUTTON {
+  position: absolute;
+  margin-left: 130vh;
+  float: right;
+  width: 350px;
+  height: 100px;
+  margin-top: 250px;
+  z-index: 2;
+}
+
+.CONCERNS {
+  position: relative;
+  width: 690px;
+  height: 800px;
+  float: left;
+}
+
+.PRIVATE {
+  position: relative;
+  width: 690px;
+  height: 800px;
+  float: left;
 }
