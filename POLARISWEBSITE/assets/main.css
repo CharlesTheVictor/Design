@@ -23,7 +23,7 @@
   margin: 0;
   padding: 0;
   width: 1440px;
-  filter: grayscale(100%) contrast(180%);
+  filter: grayscale(100%) contrast(300%);
   transform: scaleX(-1);
 }
 canvas {
