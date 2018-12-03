@@ -1,0 +1,44 @@
+@font-face{
+    font-family: "LoRes";
+    src: url('Lo-Res/Lo-Res 12 Bold Alt.ttf'),
+}
+* {
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+#container {
+    margin:0;
+    padding:0;
+    height: auto;
+    width: 1440px;
+}
+#video {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  filter: grayscale(100%) contrast(180%);
+}
+#motion {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  filter: grayscale(100%) contrast(180%);
+  transform: scaleX(-1);
+}
+canvas {
+    image-rendering: pixelated;
+}
+.LOGO {
+  position: fixed;
+  z-index: 1;
+  margin: 25px;
+  width: 1390px;
+}
+.POLARIS {
+  position: relative;
+}
+.BUTTON {
+  position: relative;
+  float: right;
+}
