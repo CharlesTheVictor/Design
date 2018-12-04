@@ -63,7 +63,7 @@ canvas {
 .Content{
   position: fixed;
   z-index: 1;
-  left: 450px;
+  right:25px;
   width: auto;
   height: -webkit-fill-available;
   padding: 25px;
