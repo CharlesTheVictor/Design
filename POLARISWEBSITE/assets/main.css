@@ -90,6 +90,7 @@ canvas {
   width: 690px;
   height: -webkit-fill-available;
   float: left;
+  -webkit-overflow-scrolling: scrolling;
 }
 
 .PRIVATE {
@@ -97,4 +98,5 @@ canvas {
   width: 690px;
   height: -webkit-fill-available;
   float: left;
+  -webkit-overflow-scrolling: scrolling;
 }
