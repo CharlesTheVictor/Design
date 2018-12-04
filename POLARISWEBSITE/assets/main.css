@@ -2,7 +2,7 @@
     font-family: "LoRes";
     src: url('Lo-Res/Lo-Res 12 Bold Alt.ttf'),
 }
-* {
+html {
   margin:0;
   padding:0;
   overflow: hidden;
