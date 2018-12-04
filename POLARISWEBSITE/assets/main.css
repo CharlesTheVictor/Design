@@ -90,6 +90,7 @@ canvas {
   width: 690px;
   height: -webkit-fill-available;
   float: left;
+  overflow: auto;
   -webkit-overflow-scrolling: scrolling;
 }
 
@@ -98,5 +99,6 @@ canvas {
   width: 690px;
   height: -webkit-fill-available;
   float: left;
+  overflow: auto;
   -webkit-overflow-scrolling: scrolling;
 }
