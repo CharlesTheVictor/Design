@@ -64,9 +64,10 @@ canvas {
   position: fixed;
   z-index: 1;
   left: 450px;
-  width: 690px;
+  width: auto;
   height: -webkit-fill-available;
   padding: 25px;
+  -webkit-overflow-scrolling:touch;
 }
 
 .CONCERNSBUTTON {
