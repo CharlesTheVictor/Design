@@ -7,11 +7,15 @@
   padding:0;
   overflow: hidden;
 }
+body {
+  background-color: black;
+}
 .loading {
   position: absolute;
   float: left;
   width: 1440px;
-  height: 800px;
+  height: -webkit-fill-available;
+  background-color: black;
   z-index: 2;
   border: none;
   transform: scale(1.06);
@@ -43,37 +47,38 @@ canvas {
 .LOGO {
   position: fixed;
   z-index: 1;
-  margin: 25px;
   width: 350px;
+  height: -webkit-fill-available;
+  padding: 25px;
 }
 .POLARIS {
-  position: relative;
+  position: fixed;
   float: left;
 }
 .BUTTON {
-  position: relative;
+  position: fixed;
   float: left;
-  margin-top: 100px;
+  bottom: 0;
 }
 .Content{
   position: fixed;
   z-index: 1;
   left: 450px;
   width: 690px;
-  }
+  height: -webkit-fill-available;
+  padding: 25px;
+}
 
 .CONCERNSBUTTON {
-  position: absolute;
-  top: 550px;
-  float: right;
+  position: fixed;
   width: 350px;
   height: 60px;
   z-index: 2;
+  bottom: 145px;
 }
 .PRIVATEBUTTON {
-  position: absolute;
-  top: 675px;
-  float: right;
+  position: fixed;
+  bottom: 0;
   width: 350px;
   height: 75px;
   z-index: 2;
@@ -82,13 +87,13 @@ canvas {
 .CONCERNS {
   position: relative;
   width: 690px;
-  height: 800px;
+  height: -webkit-fill-available;
   float: left;
 }
 
 .PRIVATE {
   position: relative;
   width: 690px;
-  height: 800px;
+  height: -webkit-fill-available;
   float: left;
 }
