@@ -7,8 +7,10 @@ html {
   padding:0;
   overflow: hidden;
 }
+
 body {
   background-color: black;
+  cursor: url('CURSOR.png'), default;
 }
 .loading {
   position: absolute;
@@ -77,6 +79,7 @@ canvas {
   height: 60px;
   z-index: 2;
   bottom: 145px;
+  cursor: url('CURSORCLICK.png'), default;
 }
 .PRIVATEBUTTON {
   position: fixed;
@@ -84,6 +87,7 @@ canvas {
   width: 350px;
   height: 75px;
   z-index: 2;
+  cursor: url('CURSORCLICK.png'), default;
 }
 
 .CONCERNS {
