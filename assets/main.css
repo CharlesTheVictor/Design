@@ -123,6 +123,15 @@
   padding: 10px;
 }
 
+.SOL {
+  color: red;
+  font-size: 6pt;
+  margin-left: 50px;
+  margin-top: 200px;
+  position: relative;
+  padding: 10px;
+}
+
 a {
   color: red;
   font: Arial;
