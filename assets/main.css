@@ -65,12 +65,30 @@
   z-index: 1;
 }
 
-.DOWNLOAD {
-  width: 410px;
+.PROJECTPDF {
+  width: 100px;
   height: 50px;
   position: absolute;
-  left: 650px;
-  top: 400px;
+  left: 850px;
+  top: 450px;
+  z-index: 1;
+}
+
+.RESUME {
+  width: 170px;
+  height: 50px;
+  position: absolute;
+  left: 850px;
+  top: 600px;
+  z-index: 1;
+}
+
+.LinkedIn {
+  width: 170px;
+  height: 50px;
+  position: absolute;
+  left: 375px;
+  top: 600px;
   z-index: 1;
 }
 
