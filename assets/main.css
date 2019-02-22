@@ -56,6 +56,14 @@
   color: red;
 }
 
+.EMAIL {
+  width: 410px;
+  height: 50px;
+  position: absolute;
+  left: 650px;
+  top: 500px;
+}
+
 
 .WORK {
   color:white;
