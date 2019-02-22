@@ -59,7 +59,7 @@
 
 .WORK {
   color:white;
-  font-size: 150%;
+  font-size: 100%;
   margin-left: 50px;
   margin-top: 50px;
   position: relative;
@@ -399,6 +399,30 @@ div[class^="PUNCBOX"] {
     box-shadow: inset 0em 0em 0 0.5em, 0em 1em 0 0.5em, 1em 1em 0 0.5em, 0em 2em 0 0.5em, 1em 3em 0 0.5em, 0em 4em 0 0.5em, 1em 4em 0 0.5em, 0em 5em 0 0.5em, 1em 5em 0 0.5em, 0em 6em 0 0.5em, 0em 8em 0 0.5em, 0em 3em 0 0.5em, 1em 2em 0 0.5em, 1em 0em 0 0.5em;
     width: 0;
     height: 0;
+}
+
+.PUNCBOX5 {
+  width: 1.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.COLON {
+  box-shadow: 0em 8em 0 0.5em, 0em 4em 0 0.5em;
+  width: 0;
+  height: 0;
+}
+
+.PUNCBOX6 {
+  width: 1.5em;
+	height: 10.5em;
+	padding: .5em 1em 1em .5em;
+	position: relative;
+}
+.SEMICOLON {
+  box-shadow: 0em 8em 0 0.5em, 0em 4em 0 0.5em, 0em 9em 0 0.5em, -1em 10em 0 0.5em;
+  width: 0;
+  height: 0;
 }
 
 
