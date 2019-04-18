@@ -1000,12 +1000,15 @@ box-shadow: inset 0em 0em 0 0.5em, inset 0em 1em 0 0.5em, 2em 2em 0 0.5em, 1em 3
     width: 200px;
   }
 
-  .HIREME {
+  .HIRETHOU {
     position: fixed;
-    bottom: 25px;
+    bottom: 15px;
     right: 25px;
     z-index: 1;
     width: 200px;
+    font-family: Lo-Res;
+    color: white;
+    font-size: 50px;
   }
 
   .BODYOPENING{
@@ -1057,6 +1060,7 @@ box-shadow: inset 0em 0em 0 0.5em, inset 0em 1em 0 0.5em, 2em 2em 0 0.5em, 1em 3
    top: 1500px;
    bottom: 0;
    width: 700px;
+   transition: .5s ease;
  }
 
  .STRESSSUCKS_REAL {
@@ -1224,6 +1228,10 @@ box-shadow: inset 0em 0em 0 0.5em, inset 0em 1em 0 0.5em, 2em 2em 0 0.5em, 1em 3
   display: block;
 }
 
+.PROCESSPDF_LINK:hover {
+  text-decoration: underline;
+}
+
 .SOLLEWITT_REAL:hover + .SOLLEWITT_DESC {
  display: block;
 }
@@ -1239,6 +1247,15 @@ box-shadow: inset 0em 0em 0 0.5em, inset 0em 1em 0 0.5em, 2em 2em 0 0.5em, 1em 3
 @font-face {
     font-family: "Redaction";
     src: url('webfonts/Redaction35-Regular.woff');
+}
+
+@font-face {
+    font-family: "Lo-Res";
+    src: url('Lo-Res 12 Regular.ttf');
+}
+
+.HIRETHOU:hover {
+    text-decoration: underline;
 }
 
 a {
