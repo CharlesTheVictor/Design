@@ -113,6 +113,14 @@
  z-index: 1;
 }
 
+.BADASSBOX {
+ width: auto;
+ background-color: black;
+ height: 800px;
+ margin-top: 1450px;
+ z-index: 1;
+}
+
 .SOLLEWITT_REAL {
  position: absolute;
  margin: auto;
@@ -272,6 +280,10 @@ display: block;
 }
 
 .BADASSBAUHAUS_REAL:hover + .BADASSBAUHAUS_DESC{
+display: block;
+}
+
+.BADASSBOX:hover  .PROCESSPDF_LINK {
 display: block;
 }
 
