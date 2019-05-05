@@ -1,0 +1,109 @@
+
+@font-face{
+    font-family: "Redaction";
+    src: url('Redaction/Redaction-Regular.woff');
+}
+
+@font-face{
+    font-family: "Redaction50";
+    src: url('Redaction/Redaction50-Regular.woff');
+}
+
+@font-face{
+    font-family: "Redaction50-Italic";
+    src: url('Redaction/Redaction50-Italic.woff');
+}
+
+html {
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+
+body {
+  background-color: black;
+  cursor: url('CURSOR.png'), default;
+}
+
+#container1 {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 720px;
+  position: absolute;
+  z-index: -1;
+  float: left;
+}
+
+#container2 {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 720px;
+  position: relative;
+  float: left;
+}
+
+#video {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  filter: grayscale(100%) contrast(200%);
+  transform: scaleX(-1)
+}
+
+#motion {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  filter: grayscale(100%) contrast(300%);
+  transform: scaleX(-1);
+}
+
+canvas {
+    image-rendering: pixelated;
+}
+
+.TEXT {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  height: 125px;
+  width: 700px;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  background: black;
+}
+.TEXT2 {
+  margin: 0 20px 0 25px;
+  position: absolute;
+  height: fit-content;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  color: white;
+  font-size: 20pt;
+}
+
+.HUMAN {
+  font-family: Redaction;
+}
+
+.CYBORG {
+  font-family: Redaction50;
+}
+
+h1 {
+  font-family: Redaction50;
+}
+
+.ITALIC {
+  font-family: Redaction50-Italic;
+}
