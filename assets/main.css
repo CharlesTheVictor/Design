@@ -43,6 +43,11 @@
   top: 150px;
 }
 
+h1 {
+  font-weight: normal;
+  font-size: 40pt;
+}
+
 .heading {
   font-weight: normal;
   font-size: 40pt;
