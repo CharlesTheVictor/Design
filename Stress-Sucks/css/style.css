@@ -13,6 +13,11 @@ html, body {
   overflow: hidden;
 }
 
+@font-face {
+  font-family: "VulfMonoBold";
+  src: url('VulfMonoCode-Bold.otf');
+}
+
 body {
   position: relative;
   display: flex;
@@ -46,8 +51,8 @@ body:active {
 h1 {
   position: relative;
   margin: 0 auto;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 3.5rem;
+  font-family: VulfMonoBold, monospace;
+  font-size: 2.5rem;
   line-height: 1.6rem;
   color: white;
   display: flex;
