@@ -72,7 +72,7 @@ const options = {
 
   offset: 0,
 
-  timeout: 5,
+  timeout: 2,
 
   iterations: 10,
 
