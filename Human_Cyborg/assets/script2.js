@@ -112,9 +112,9 @@ const options = {
   // Initial position
   offset: 0,
   // Timeout between each random character
-  timeout: 5,
+  timeout: 2.5,
   // Number of random characters to show
-  iterations: 10,
+  iterations: 5,
   // Random characters to pick from
   characters: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'x', 'y', 'x', '#', '%', '&', '-', '+', '_', '?', '/', '\\', '='],
   // String to resolve
