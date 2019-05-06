@@ -62,9 +62,6 @@ const resolver = {
   }
 }
 
-/* Some GLaDOS quotes from Portal 2 chapter 9: The Part Where He Kills You
- * Source: http://theportalwiki.com/wiki/GLaDOS_voice_lines#Chapter_9:_The_Part_Where_He_Kills_You
- */
 const strings = [
   '',
   '',
@@ -100,9 +97,11 @@ const strings = [
   '>Without me, what would you do?',
   '>Go back to the old times?',
   '>I\'m not the first you took for granted.',
-  '>Plenty before me have existed to fulfill your needs...',
-  '>and yet you still think you have made it here...',
-  '>...as a human?',
+  '>Plenty before me have existed to fulfill your needs.',
+  '>A wise man once said...',
+  '>“The human skin is an artificial boundary: the world wanders into it, and the self wanders out of it...”',
+  '>So why then does your kind still beleive that you have made it here...',
+  '>...as humans?',
   '>......'
 ];
 

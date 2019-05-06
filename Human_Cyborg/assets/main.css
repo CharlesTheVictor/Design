@@ -79,6 +79,7 @@ canvas {
   text-align: center;
   background: black;
 }
+
 .TEXT2 {
   margin: 0 20px 0 25px;
   position: absolute;
@@ -102,6 +103,7 @@ canvas {
 
 h1 {
   font-family: Redaction50;
+  font-weight: normal;
 }
 
 .ITALIC {
