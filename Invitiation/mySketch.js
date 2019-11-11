@@ -1,56 +1,96 @@
-let str = "Come Over And Have Dinner!";
-let str_arr = [];
+// P_2_3_3_01
+//
+// Generative Gestaltung, ISBN: 978-3-87439-759-9
+// First Edition, Hermann Schmidt, Mainz, 2009
+// Hartmut Bohnacker, Benedikt Gross, Julia Laub, Claudius Lazzeroni
+// Copyright 2009 Hartmut Bohnacker, Benedikt Gross, Julia Laub, Claudius Lazzeroni
+//
+// http://www.generative-gestaltung.de
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
 
-let font;
+/**
+ * draw tool. shows how to draw with dynamic elements.
+ *
+ * MOUSE
+ * drag                : draw with text
+ *
+ * KEYS
+ * del, backspace      : clear screen
+ * arrow up            : angle distortion +
+ * arrow down          : angle distortion -
+ * s                   : save png
 
-function preload() {
-  font = loadFont("Lobster-Regular.ttf");
-}
+ */
+
+var x = 0, y = 0;
+var stepSize = 5.0;
+var letters = " An Invite For You!";
+var fontSizeMin = 3;
+var angleDistortion = 0.0;
+var counter = 0;
+
 
 function setup() {
-  createCanvas(windowWidth, windowHeight, WEBGL);
-  colorMode(HSB, 360, 100, 100, 100);
-  let strs = str.split(" ");
-  for (let i = 0; i < strs.length*20; i++) {
-    let x = random(-width / 2, width / 2);
-    let y = random(-height / 2, height / 2);
-    let z = random(-width*5, width/2);
-    str_arr.push(new Type(strs[i%strs.length], x, y, z));
-  }
+  // use full screen size
+  createCanvas(windowWidth, windowHeight);
+  background(255);
+  smooth();
+  cursor(CROSS);
+
+  x = mouseX;
+  y = mouseY;
+
+  textAlign(LEFT);
+  fill(0);
+
 }
 
 function draw() {
-  background(0,0,0);
-	orbitControl();
-  for (let i = 0; i < str_arr.length; i++) {
-    str_arr[i].update();
-    str_arr[i].display();
+  if (mouseOver) {
+    var d = dist(x,y, mouseX,mouseY);
+    textFont('Georgia');
+    textSize(fontSizeMin+d/2)
+    var newLetter = letters.charAt(counter);;
+    stepSize = textWidth(newLetter);
+
+    if (d > stepSize) {
+      var angle = atan2(mouseY-y, mouseX-x);
+
+      push();
+      translate(x, y);
+      rotate(angle + random(angleDistortion));
+      text(newLetter, 0, 0);
+      pop();
+
+      counter++;
+     if (counter > letters.length-1) counter = 0;
+
+      x = x + cos(angle) * stepSize;
+      y = y + sin(angle) * stepSize;
+    }
   }
 }
 
-class Type {
-  constructor(_str, _x, _y, _z) {
-    this.str = _str;
-    this.x = _x;
-    this.y = _y;
-    this.z = _z;
-  }
+function mouseOver() {
+  x = mouseX;
+  y = mouseY;
+}
 
-  update() {
-    this.z += 10;
-    if(this.z > width/2){
-    	this.z = -width*5;
-    }
-  }
+function keyTyped() {
+  if (key == 's' || key == 'S') save("P_2_3_3_01.png");
+}
 
-  display() {
-    push();
-    translate(this.x, this.y, this.z);
-    textAlign(CENTER, CENTER);
-    textFont(font);
-    textSize(100);
-		fill(0,0,100);
-    text(this.str, 0, 0);
-    pop();
-  }
+function keyPressed() {
+  // angleDistortion ctrls arrowkeys up/down
+  if (keyCode == DELETE || keyCode == BACKSPACE) background(255);
+  if (keyCode == UP_ARROW) angleDistortion += 0.1;
+  if (keyCode == DOWN_ARROW) angleDistortion -= 0.1;
 }
