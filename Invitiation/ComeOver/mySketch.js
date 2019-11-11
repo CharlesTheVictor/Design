@@ -1,6 +1,11 @@
 let str = "Come Over And Have Dinner!";
 let str_arr = [];
 
+let font;
+
+function preload() {
+  font = textFont("Georgia.ttf");
+}
 
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
@@ -42,7 +47,7 @@ class Type {
     push();
     translate(this.x, this.y, this.z);
     textAlign(CENTER, CENTER);
-    textFont('Georgia');
+    textFont(font);
     textSize(100);
 		fill(0,0,100);
     text(this.str, 0, 0);
