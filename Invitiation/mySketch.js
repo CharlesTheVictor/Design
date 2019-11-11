@@ -1,4 +1,4 @@
-let str = "DT DATA xia go people over the lazy dog";
+let str = "Come Over And Have Dinner!";
 let str_arr = [];
 
 let font;
