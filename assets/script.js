@@ -63,7 +63,7 @@ const resolver = {
 }
 
 const strings = [
-  'Charles Victor—A digital designer and developer from San Fransisco & the surrouding Bay Area. Here is some of his design and development work.'
+  'Charles Victor—A digital designer and developer from San Francisco & the surrouding Bay Area. Here is some of his design and development work.'
 ];
 
 let counter = 0;
