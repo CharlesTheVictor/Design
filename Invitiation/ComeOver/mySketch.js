@@ -4,7 +4,7 @@ let str_arr = [];
 let font;
 
 function preload() {
-  font = textFont("Georgia.ttf");
+  font = loadFont("Georgia.ttf");
 }
 
 function setup() {
