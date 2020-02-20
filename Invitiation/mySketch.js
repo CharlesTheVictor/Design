@@ -32,8 +32,8 @@
 
 var x = 0, y = 0;
 var stepSize = 5.0;
-var letters = " An Invite For You!";
-var fontSizeMin = 3;
+var letters = "Words are like leaves and where they most abound, Much fruit of sense beneath is rarely found. ";
+var fontSizeMin = 35;
 var angleDistortion = 0.0;
 var counter = 0;
 
@@ -41,23 +41,22 @@ var counter = 0;
 function setup() {
   // use full screen size
   createCanvas(windowWidth, windowHeight);
-  background(255);
+  background(0);
   smooth();
-  cursor(CROSS);
 
   x = mouseX;
   y = mouseY;
 
   textAlign(LEFT);
-  fill(0);
+  fill(255);
 
 }
 
 function draw() {
   if (mouseOver) {
     var d = dist(x,y, mouseX,mouseY);
-    textFont('Georgia');
-    textSize(fontSizeMin+d/2)
+    textFont('san-serif');
+    textSize(fontSizeMin+d/5)
     var newLetter = letters.charAt(counter);;
     stepSize = textWidth(newLetter);
 

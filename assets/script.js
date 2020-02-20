@@ -72,9 +72,9 @@ const options = {
 
   offset: 0,
 
-  timeout: 2,
+  timeout: 1,
 
-  iterations: 10,
+  iterations: 5,
 
   characters: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'x', 'y', 'x', '#', '%', '&', '-', '+', '_', '?', '/', '\\', '='],
 
@@ -94,7 +94,7 @@ function callback() {
 
     let nextOptions = Object.assign({}, options, {resolveString: strings[counter]});
     resolver.resolve();
-  }, 2000);
+  }, 1000);
 }
 
 resolver.resolve(options, callback);
