@@ -11,7 +11,8 @@ $('document').ready(function(){
 	$('.fakeClose2').click(
      function() {
      $('.panel').removeClass('scale');
-		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext15, .noscaletext1, #navigation').show();
+		 $('.scaletext15, .scaletext1, .scaletext2').hide();
 		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
@@ -20,7 +21,8 @@ $('document').ready(function(){
 	$('.fakeClose3').click(
      function() {
      $('.panel').removeClass('scale');
-		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext15, .noscaletext1, #navigation').show();
+		 $('.scaletext15, .scaletext1, .scaletext2').hide();
 		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
@@ -29,7 +31,8 @@ $('document').ready(function(){
 	$('.fakeClose4').click(
      function() {
      $('.panel').removeClass('scale');
-		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext15, .noscaletext1, #navigation').show();
+		 $('.scaletext15, .scaletext1, .scaletext2').hide();
 		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
@@ -38,7 +41,8 @@ $('document').ready(function(){
 	$('.fakeClose5').click(
      function() {
      $('.panel').removeClass('scale');
-		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext15, .noscaletext1, #navigation').show();
+		 $('.scaletext15, .scaletext1, .scaletext2').hide();
 		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
@@ -47,7 +51,8 @@ $('document').ready(function(){
 	$('.fakeClose6').click(
      function() {
      $('.panel').removeClass('scale');
-		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext15, .noscaletext1, #navigation').show();
+		 $('.scaletext15, .scaletext1, .scaletext2').hide();
 		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
@@ -56,7 +61,8 @@ $('document').ready(function(){
 	$('.fakeClose7').click(
      function() {
      $('.panel').removeClass('scale');
-		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext15, .noscaletext1, #navigation').show();
+		 $('.scaletext15, .scaletext1, .scaletext2').hide();
 		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
@@ -65,7 +71,8 @@ $('document').ready(function(){
 	$('.fakeClose8').click(
      function() {
      $('.panel').removeClass('scale');
-		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext15, .noscaletext1, #navigation').show();
+		 $('.scaletext15, .scaletext1, .scaletext2').hide();
 		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
@@ -74,7 +81,8 @@ $('document').ready(function(){
 	$('.fakeClose9').click(
      function() {
      $('.panel').removeClass('scale');
-		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext15, .noscaletext1, #navigation').show();
+		 $('.scaletext15, .scaletext1, .scaletext2').hide();
 		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
@@ -83,7 +91,8 @@ $('document').ready(function(){
 	$('.fakeClose10').click(
      function() {
      $('.panel').removeClass('scale');
-		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext15, .noscaletext1, #navigation').show();
+		 $('.scaletext15, .scaletext1, .scaletext2').hide();
 		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
@@ -92,7 +101,8 @@ $('document').ready(function(){
 	$('.fakeClose11').click(
      function() {
      $('.panel').removeClass('scale');
-		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext15, .noscaletext1, #navigation').show();
+		 $('.scaletext15, .scaletext1, .scaletext2').hide();
 		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
@@ -101,7 +111,8 @@ $('document').ready(function(){
 	$('.fakeClose12').click(
      function() {
      $('.panel').removeClass('scale');
-		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext15, .noscaletext1, #navigation').show();
+		 $('.scaletext15, .scaletext1, .scaletext2').hide();
 		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
@@ -110,7 +121,8 @@ $('document').ready(function(){
 	$('.fakeClose13').click(
      function() {
      $('.panel').removeClass('scale');
-		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext15, .noscaletext1, #navigation').show();
+		 $('.scaletext15, .scaletext1, .scaletext2').hide();
 		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
@@ -119,7 +131,8 @@ $('document').ready(function(){
 	$('.fakeClose14').click(
      function() {
      $('.panel').removeClass('scale');
-		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext15, .noscaletext1, #navigation').show();
+		 $('.scaletext15, .scaletext1, .scaletext2').hide();
 		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
@@ -128,7 +141,8 @@ $('document').ready(function(){
 	$('.fakeClose15').click(
      function() {
      $('.panel').removeClass('scale');
-		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext15, .noscaletext1, #navigation').show();
+		 $('.scaletext15, .scaletext1, .scaletext2').hide();
 		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
