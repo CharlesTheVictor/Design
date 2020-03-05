@@ -160,13 +160,15 @@ $('document').ready(function(){
      function() {
      $('.panel').addClass('scale');
 		 $('.page').removeClass('__transitional');
-     $('.panel--1, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').hide();
+     $('.panel--1, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext15, #navigation').hide();
+		 $('.scaletext2').show();
   }, );
 
 	$('.fakeMinimize2').click(
 		 function() {
 		 $('.panel').removeClass('scale');
-		 $('.panel--1, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel--1, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext15, #navigation').show();
+		 $('.scaletext2').hide();
 	}, );
 
 	$('.fakeZoom3').click(
@@ -181,7 +183,7 @@ $('document').ready(function(){
 		 function() {
 		 $('.panel').removeClass('scale');
 		 $('.panel--1, .panel--2, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext1, #navigation').show();
-		  $('.scaletext1').hide()
+		 $('.scaletext1').hide();
 	}, );
 
 	$('.fakeZoom4').click(

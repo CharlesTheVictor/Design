@@ -155,6 +155,13 @@ grid-template-areas:
   margin: 15vh;
 }
 
+.scaletext2 {
+  color: white;
+  position: relative;
+  display: none;
+  width: -webkit-fill-available;
+}
+
 .scaletext15 {
   color: white;
   position: relative;
