@@ -1,140 +1,138 @@
 $('document').ready(function(){
 
-	$('.fakeClose1').click(function() {
-     $(".panel:last").hide('fast', function() {
-    // Use arguments.callee so we don't need a named function
-    $( this ).prev().hide( "fast", arguments.callee );
-	});
-		$('#navigation').hide();
-		$('.EXHIBITBOX').show();
-  }, );
-
-	$('.fakeClose2').click(function() {
-		 $(".panel:last").hide('fast', function() {
+	$('.fakeClose1').click(
+     function() {
+     $('.panel').removeClass('scale');
+		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
-	});
-		$('#navigation').hide();
-		$('.EXHIBITBOX').show();
-	}, );
+	});  }, );
 
-	$('.fakeClose3').click(function() {
-		 $(".panel:last").hide('fast', function() {
+	$('.fakeClose2').click(
+     function() {
+     $('.panel').removeClass('scale');
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
-	});
-		$('#navigation').hide();
-		$('.EXHIBITBOX').show();
-	}, );
+	});  }, );
 
-	$('.fakeClose4').click(function() {
-		 $(".panel:last").hide('fast', function() {
+	$('.fakeClose3').click(
+     function() {
+     $('.panel').removeClass('scale');
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
-	});
-		$('#navigation').hide();
-		$('.EXHIBITBOX').show();
-	}, );
+	});  }, );
 
-	$('.fakeClose5').click(function() {
-		 $(".panel:last").hide('fast', function() {
+	$('.fakeClose4').click(
+     function() {
+     $('.panel').removeClass('scale');
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
-	});
-		$('#navigation').hide();
-		$('.EXHIBITBOX').show();
-	}, );
+	});  }, );
 
-	$('.fakeClose6').click(function() {
-		 $(".panel:last").hide('fast', function() {
+	$('.fakeClose5').click(
+     function() {
+     $('.panel').removeClass('scale');
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
-	});
-	$('#navigation').hide();
-	$('.EXHIBITBOX').show();
-	}, );
+	});  }, );
 
-	$('.fakeClose7').click(function() {
-		 $(".panel:last").hide('fast', function() {
+	$('.fakeClose6').click(
+     function() {
+     $('.panel').removeClass('scale');
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
-	});
-	$('#navigation').remove();
-	$('.EXHIBITBOX').show();
+	});  }, );
 
-	}, );
-
-	$('.fakeClose8').click(function() {
-		 $(".panel:last").hide('fast', function() {
+	$('.fakeClose7').click(
+     function() {
+     $('.panel').removeClass('scale');
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
-	});
-		$('#navigation').hide();
-		$('.EXHIBITBOX').show();
-	}, );
+	});  }, );
 
-	$('.fakeClose9').click(function() {
-		 $(".panel:last").hide('fast', function() {
+	$('.fakeClose8').click(
+     function() {
+     $('.panel').removeClass('scale');
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
-	});
-		$('#navigation').hide();
-		$('.EXHIBITBOX').show();
-	}, );
+	});  }, );
 
-	$('.fakeClose10').click(function() {
-		 $(".panel:last").hide('fast', function() {
+	$('.fakeClose9').click(
+     function() {
+     $('.panel').removeClass('scale');
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
-	});
-		$('#navigation').hide();
-		$('.EXHIBITBOX').show();
-	}, );
+	});  }, );
 
-	$('.fakeClose11').click(function() {
-		 $(".panel:last").hide('fast', function() {
+	$('.fakeClose10').click(
+     function() {
+     $('.panel').removeClass('scale');
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
-	});
-		$('#navigation').hide();
-		$('.EXHIBITBOX').show();
-	}, );
+	});  }, );
 
-	$('.fakeClose12').click(function() {
-		 $(".panel:last").hide('fast', function() {
+	$('.fakeClose11').click(
+     function() {
+     $('.panel').removeClass('scale');
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
-	});
-		$('#navigation').hide();
-		$('.EXHIBITBOX').show();
-	}, );
+	});  }, );
 
-	$('.fakeClose13').click(function() {
-		 $(".panel:last").hide('fast', function() {
+	$('.fakeClose12').click(
+     function() {
+     $('.panel').removeClass('scale');
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
-	});
-		$('#navigation').hide();
-		$('.EXHIBITBOX').show();
-	}, );
+	});  }, );
 
-	$('.fakeClose14').click(function() {
-		 $(".panel:last").hide('fast', function() {
+	$('.fakeClose13').click(
+     function() {
+     $('.panel').removeClass('scale');
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
-	});
-		$('#navigation').hide();
-		$('.EXHIBITBOX').show();
-	}, );
+	});  }, );
 
-	$('.fakeClose15').click(function() {
-		 $(".panel:last").hide('fast', function() {
+	$('.fakeClose14').click(
+     function() {
+     $('.panel').removeClass('scale');
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
-	});
-		$('#navigation').hide();
-		$('.EXHIBITBOX').show();
-	}, );
+	});  }, );
+
+	$('.fakeClose15').click(
+     function() {
+     $('.panel').removeClass('scale');
+		 $('.panel--1, .panel--2, .panel--3, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel:not(:last)').hide('fast', function() {
+		// Use arguments.callee so we don't need a named function
+		$( this ).prev().hide( "fast", arguments.callee );
+	});  }, );
 
 	$(".EXHIBITBOX").click(function() {
 		 document.location.reload();
@@ -153,7 +151,7 @@ $('document').ready(function(){
 	$('.fakeMinimize1').click(
      function() {
      $('.panel').removeClass('scale');
-		 $('.panel:last').hide('fast', function() {
+		 $('.panel:not(:last)').hide('fast', function() {
 		// Use arguments.callee so we don't need a named function
 		$( this ).prev().hide( "fast", arguments.callee );
 	});  }, );
@@ -175,13 +173,15 @@ $('document').ready(function(){
 		 function() {
 		 $('.panel').addClass('scale');
 		 $('.page').removeClass('__transitional');
-		 $('.panel--1, .panel--2, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').hide();
+		 $('.panel--1, .panel--2, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext1, #navigation').hide();
+		 $('.scaletext1').show();
 	}, );
 
 	$('.fakeMinimize3').click(
 		 function() {
 		 $('.panel').removeClass('scale');
-		 $('.panel--1, .panel--2, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, #navigation').show();
+		 $('.panel--1, .panel--2, .panel--4, .panel--5, .panel--6, .panel--7, .panel--8, .panel--9, .panel--10, .panel--11, .panel--12, .panel--13, .panel--14, .panel--15, .noscaletext1, #navigation').show();
+		  $('.scaletext1').hide()
 	}, );
 
 	$('.fakeZoom4').click(

@@ -141,6 +141,20 @@ grid-template-areas:
   font-size: 22.5px;
 }
 
+.noscaletext1{
+  font-family: 'Aktiv Grotesk', sans-serif;
+  color: white;
+  position: relative;
+  font-size: 20px;
+}
+
+.scaletext1 {
+  color: white;
+  position: relative;
+  display: none;
+  margin: 15vh;
+}
+
 .scaletext15 {
   color: white;
   position: relative;
@@ -151,6 +165,12 @@ grid-template-areas:
 .BoxTitle {
   position: relative;
   font-size: 50px;
+}
+
+.BoxIntro {
+  position: relative;
+  font-size: 40px;
+  margin: 10px;
 }
 
 
@@ -168,6 +188,7 @@ img[class^="ImageArt"] {
 
 .panel--1 {
   grid-area: c1;
+  z-index: -1;
 }
 
 .panel.panel--1.scale {
