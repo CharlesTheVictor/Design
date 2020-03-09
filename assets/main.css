@@ -34,13 +34,14 @@
 .BODYOPENING{
   font-family: Redaction;
   color: white;
-  height: auto;
+  height: 500px;
   width: 650px;
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  top: 150px;
+  position: relative;
+  display: block;
+  margin-top: 200px;
+  margin-bottom: 300px;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: normal;
   font-size: 40pt;
 }
@@ -86,80 +87,77 @@ h1 {
 /*––––––––––––––––WEBPAGE GIFS––––––––––––––––*/
 
 .VANGUARD_REAL {
- position: absolute;
- margin: auto;
- left: 0;
- right: 0;
- top: 1500px;
- bottom: 0;
- width: 700px;
- transition: .5s ease;
+  position: relative;
+  display: block;
+  margin-top: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
 }
 
 .STRESSSUCKS_REAL {
- position: absolute;
- margin: auto;
- left: 0;
- right: 0;
- top: 3000px;
- bottom: 0;
- width: 700px;
+  position: relative;
+  display: block;
+  margin-top: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
 }
 
 .POLARIS_REAL {
- position: absolute;
- margin: auto;
- left: 0;
- right: 0;
- top: 4500px;
- bottom: 0;
- width: 700px;
+  position: relative;
+  display: block;
+  margin-top: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 400px;
+  width: 700px;
 }
 
 .POLARISBOX {
- width: auto;
- background-color: black;
- height: 800px;
- margin-top: 2250px;
- z-index: 1;
+  position: relative;
+  display: flow-root;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
 }
 
 .BADASSBOX {
- width: auto;
- background-color: black;
- height: 800px;
- margin-top: 1450px;
- z-index: 1;
+  position: relative;
+  display: flow-root;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
 }
 
 .SOLLEWITT_REAL {
- position: absolute;
- margin: auto;
- left: 0;
- right: 0;
- top: 6000px;
- bottom: 0;
- width: 700px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 300px;
+  width: 700px;
 }
 
 .ITRAINED_REAL {
- position: absolute;
- margin: auto;
- left: 0;
- right: 0;
- top: 7500px;
- bottom: 0;
- width: 700px;
+  position: relative;
+  display: block;
+  margin-top: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
 }
 
 .BADASSBAUHAUS_REAL {
- position: absolute;
- margin: auto;
- left: 0;
- right: 0;
- top: 9000px;
- bottom: 0;
- width: 700px;
+  position: relative;
+  display: block;
+  margin-top: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 300px;
+  width: 700px;
 }
 
 
