@@ -20,6 +20,7 @@
     <meta content="Design and Development by Charles Victor" name="title">
     <link rel="stylesheet" href="assets/main.css" type="text/css" />
     <link rel="icon" href="assets/LOGO-VC.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
 
 
@@ -31,66 +32,56 @@
 
   <!-- <a class="LinkedIn" href="https://www.linkedin.com/in/charles-victor-1a66b8172/" target="_blank"></a> -->
   <!-- <a class="RESUME" href="CharlesVictor-Resume.pdf" target="_blank"></a> -->
+
+<div class="MenuTop">
 <div onclick="topFunction()" id="myBtn" title="Go to top">
   <img class="LOGOVC" src="assets/VCAsset_3.png" alt="Charles Victor">
 </div>
+<div class="TextTop">
+<span class="MenuText HomeText">
+  Home
+</span>
+<span id="btn" class="MenuText WorkText">
+  Work
+</span>
+<span class="MenuText ContactText">
+  <a class="EMAIL" href="mailto:CV@charlesthevictor.com">
+  Contact
+  </a>
+</span>
+</div>
 
-<a class="EMAIL" href="mailto:CV@charlesthevictor.com">
+
+</div>
+
+
+<div class="HomePage">
+<iframe class="HomePage" src="Home.html" frameborder="none" style=""></iframe>
+</div>
+
+<div class="WorkPage" style="display:none;">
+<iframe class="WorkPage" id="iframeid" src="Work.html" frameborder="none" ></iframe>
+</div>
+
+
+
+<!-- <a class="EMAIL" href="mailto:CV@charlesthevictor.com">
   <div class="HIRETHOU">>HIRE ME</div>
-</a>
-
-<div class="BODYOPENING"> <h1 class="heading" data-target-resolver>
-</div>
-
-
-<a href="Vanguard/Uhhhhh2.html">
-  <img class="VANGUARD_REAL" src="assets/VANGUARD_STILLS.gif" alt="Vanguard">
-  <div class="VANGUARD_DESC">VANGUARD (2018) <br> Type Design, Interactive Webpage <br> An interactive site for the typeface Vanguard. Typeface designed by me.</div>
-</a>
-
-
-<a href="Stress-Sucks/index.html" allow="autoplay">
-  <img class="STRESSSUCKS_REAL" src="assets/STRESSSUCKS_STILLS.gif" alt="Stress Sucks">
-  <div class="STRESSSUCKS_DESC">STRESS SUCKS (2018) <br>Single Action Interactive Webpage <br> Stress Sucks, so why dont you beat it up? A site to help you destress. Collaboration with Jono Jun and Jiaqui Fu.</div>
-</a>
-
-<div class="POLARISBOX">
-<a href="POLARISWEBSITE/Polaris.html">
-  <img class="POLARIS_REAL" src="assets/POLARIS_STILLS.gif" alt="Polaris">
-  <div class="POLARIS_DESC">POLARIS (2018) <br> Brand, Webpage + More <br> Polaris is a brand created to inform/educate people on the importance of internet privacy. Website accesses your webcam. Full brand breakdown availabe in Process PDF.</div>
-</a>
-<a class="PROCESSPDF_LINK" href="CharlesVictor-ProcessPDF.pdf" target="_blank">>POLARIS Process PDF</a>
-</div>
-
-<a href="Sol LeWitt/index.html">
-  <img class="SOLLEWITT_REAL" src="assets/SOLLEWITT_STILLS.gif" alt="Sol LeWitt">
-  <div class="SOLLEWITT_DESC">SOL LEWITT: A VIRTUAL EXHIBIT (2018) <br>Exhibition Microsite<br>Virtual exhibit showing two of Sol LeWitt's works. Works were recreated in Unity by meticulously following and researching LeWitt's instruction on his process. Microsite inspired by a visit to SFMOMA.</div>
-</a>
-
-<a href="ITRAINEDINMYHEAD/index.html">
-  <img class="ITRAINED_REAL" src="assets/ITRAINED_STILLS.gif" alt="It Rained In My Head">
-  <div class="ITRAINED_DESC">IT RAINED IN MY HEAD (2018) <br>Music Video, Tattoo Work<br>Typography in motion music video for the song "It Rained in My Head" by hardcore band Ceremony. Song lyrics were tattooed on my body by me and filmed by Tomas Gonzalez. </div>
-</a>
-
-<div class="BADASSBOX">
-<a href="https://badassbauhaus.xyz/">
-  <img class="BADASSBAUHAUS_REAL" src="assets/BADASSBAUHAUS_STILLS2.gif" alt="Badass Bauhaus">
-  <div class="BADASSBAUHAUS_DESC">BANANASKIN•CREDITCARD•SCREEN (2019) <br>Exhibition Design & Identity<br>BANANASKIN•CREDITCARD•SCREEN is an exhibition of work created by Dutch performative design duo Tereza and Vit Ruller, known as The Rodina. Identity and graphics featured here were created by me. </div>
-</a>
-<a class="PROCESSPDF_LINK" href="https://www.trendlist.org/images/bananaskin-creditcard-screen" target="_blank">>View on Trendlist.org</a>
-</div>
-
-<div class="BODYCLOSING">Click "HIRE ME" to contact.<br> Currently available for Jobs.</div>
-
-<a href="CyberLibertarianManifesto/index.html"></a>
+</a> -->
 
 <script type="text/javascript" src="assets/script.js"></script>
+<script src="assets/Java.js" defer></script>
 
 <script>
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+function reload() {
+    document.getElementById('iframeid').src += '';
+}
+btn.onclick = reload;
 </script>
 
 </body>

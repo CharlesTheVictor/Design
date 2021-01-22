@@ -1,6 +1,7 @@
   body {
     font: 100% / 1.5 Redaction;
-    background: black;
+    background: #292929;
+
   }
 
   * {
@@ -8,14 +9,42 @@
     padding:0;
   }
 
+  a:link {
+color: white;
+ text-decoration: none;
+
+
+}
+
+
+a:visited {
+  color: white;
+ text-decoration: none;
+
+
+}
+
+
+a:hover {
+  color: white;
+ text-decoration: none;
+}
+
+
+a:active {
+color: white;
+ text-decoration: none;
+}
+
 /*––––––––––––––––LOGO & HIRE ME––––––––––––––––*/
 
 .LOGOVC {
-  position: fixed;
-  top: 25px;
-  left: 25px;
+  position: relative;
   z-index: 1;
-  width: 200px;
+  width: 20vh;
+  margin: 1vw;
+  float: left;
+  cursor: pointer;
 }
 
 .HIRETHOU {
@@ -29,21 +58,56 @@
   font-size: 50px;
 }
 
+.MenuTop{
+  position: relative;
+  width: 100vw;
+  height: 15vh;
+  background: black;
+  float: left;
+}
+
+.TextTop{
+  float: left;
+  display: table;
+  width: 85vw;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  font-weight: normal;
+  font-size: 2.5vw;
+  color: white;
+}
+
+.MenuText{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.MenuText:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /*––––––––––––––––ABOUT TEXT––––––––––––––––*/
+
+.HomePage{
+  position: relative;
+  width: 100vw;
+  height: 86vh;
+  float: left;
+}
 
 .BODYOPENING{
   font-family: Redaction;
   color: white;
-  height: 500px;
-  width: 650px;
+  height: 70vh;
+  width: 35vw;
   position: relative;
   display: block;
-  margin-top: 300px;
-  margin-bottom: 300px;
   margin-left: auto;
   margin-right: auto;
   font-weight: normal;
-  font-size: 40pt;
+  font-size: 40vw;
 }
 
 h1 {
@@ -54,6 +118,7 @@ h1 {
 .heading {
   font-weight: normal;
   font-size: 40pt;
+  margin-top: 20vh;
 }
 
 .BODYOPENING2{
@@ -86,33 +151,169 @@ h1 {
 
 /*––––––––––––––––WEBPAGE GIFS––––––––––––––––*/
 
-.VANGUARD_REAL {
+.WorkPage{
   position: relative;
+  width: 100vw;
+  height: 85vh;
+  float: left;
+  background: white !important;
+}
+
+.WorkPageBody{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  float: left;
+  background: white !important;
+}
+
+.BackArrow {
+  position: relative;
+  left: 25px;
+  top: 25px;
+  color: white;
+  font-size: 5vw;
+  z-index: 25;
+  font-family: Lo-Res;
+  display: none;
+}
+
+.MenuLeft{
+  position: relative;
+  padding: 0 1vw;
+  width: 15vw;
+  height: 100vh;
+  background: #292929;
+  float: left;
+  font-weight: normal;
+  font-size: 1vw;
+  color: white;
+}
+
+.grid {
+      display: flex;
+      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      grid-auto-rows: minmax(150px, auto);
+      grid-gap: 0;
+}
+
+.grid.scale {
   display: block;
-  margin-top: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 700px;
+}
+
+div[class^="module"] {
+  display: flex;
+  /* align-items: baseline; */
+  justify-content: center;
+  height: 300px;
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1 1 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.WorkReal{
+  position: relative;
+  height: 300px;
+}
+
+.img1st:hover {
+  position: relative;
+  height: 310px !important;
+  cursor: pointer;
+}
+
+.img1st.carouselscale:hover{
+  height: 75vh !important;
+}
+
+.WorkReal.IMGscale{
+  position: relative;
+  height: 75vh;
+}
+
+
+div[class^="module"].IMGscale {
+  display: flex;
+  /* align-items: baseline; */
+  justify-content: center;
+  height: 75vh;
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1 1 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+input[type="button" i]{
+  background-color: white; /* Green */
+   border: none;
+   color: black;
+   text-align: center;
+   text-decoration: none;
+   font-size: 4vw;
+   font-family: Lo-Res;
+}
+
+.carousel_button {
+  display:none;
+  cursor:pointer;
+  position: absolute;
+  top: 30vh;
+  }
+
+#previous_image {
+  left:0px;
+  }
+
+#next_image {
+  right:0px;
+  }
+
+#carousel_image img {
+  display:none;
+  height: 300px;
+  }
+#carousel_image img.carouselscale {
+  height: 75vh;
+  }
+
+#carousel_image {
+
+  }
+
+/* .VANGUARD_REAL {
+  position: relative;
+  height:300px;
 }
 
 .STRESSSUCKS_REAL {
   position: relative;
-  display: block;
-  margin-top: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 700px;
+  height:300px;
 }
 
 .POLARIS_REAL {
   position: relative;
-  display: block;
-  margin-top: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 400px;
-  width: 700px;
+  height:300px;
 }
+
+.SOLLEWITT_REAL {
+  position: relative;
+  height:300px;
+}
+
+.ITRAINED_REAL {
+  position: relative;
+  height:300px;
+}
+
+.BADASSBAUHAUS_REAL {
+  position: relative;
+  height:300px;
+} */
 
 .POLARISBOX {
   position: relative;
@@ -132,51 +333,26 @@ h1 {
   margin-bottom: auto;
 }
 
-.SOLLEWITT_REAL {
-  position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 300px;
-  width: 700px;
-}
-
-.ITRAINED_REAL {
-  position: relative;
-  display: block;
-  margin-top: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 700px;
-}
-
-.BADASSBAUHAUS_REAL {
-  position: relative;
-  display: block;
-  margin-top: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 300px;
-  width: 700px;
-}
-
 
 /*––––––––––––––––Hover Descriptions––––––––––––––––*/
 
-.VANGUARD_DESC {
-  color: white;
-  position: fixed;
+.WorkDESC{
+  position: relative;
+  color: black;
   display: none;
-  width: auto;
-  height: auto;
-  left: 25px;
-  bottom: 25px;
   font-family: Redaction;
   font-size: 25px;
-  width: 600px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 40vw;
 }
 
-.STRESSSUCKS_DESC {
+.VANGUARD_DESC {
+
+}
+
+/* .STRESSSUCKS_DESC {
   color: white;
   position: fixed;
   display: none;
@@ -239,7 +415,7 @@ h1 {
   font-family: Redaction;
   font-size: 25px;
   width: 650px;
-}
+} */
 
 /*––––––––––––PROCESS PDF––––––––––––*/
 
@@ -260,7 +436,7 @@ h1 {
 
 /*––––––––––––HOVER STATES––––––––––––*/
 
-.VANGUARD_REAL:hover + .VANGUARD_DESC {
+/* .VANGUARD_REAL:hover + .VANGUARD_DESC {
 display: block;
 }
 
@@ -274,13 +450,13 @@ display: block;
 
 .POLARISBOX:hover  .PROCESSPDF_LINK {
 display: block;
-}
+} */
 
 .PROCESSPDF_LINK:hover {
 text-decoration: underline;
 }
 
-.SOLLEWITT_REAL:hover + .SOLLEWITT_DESC {
+/* .SOLLEWITT_REAL:hover + .SOLLEWITT_DESC {
 display: block;
 }
 
@@ -290,7 +466,7 @@ display: block;
 
 .BADASSBAUHAUS_REAL:hover + .BADASSBAUHAUS_DESC{
 display: block;
-}
+} */
 
 .BADASSBOX:hover  .PROCESSPDF_LINK {
 display: block;
@@ -298,7 +474,7 @@ display: block;
 
 @font-face {
   font-family: "Redaction";
-  src: url('webfonts/Redaction35-Regular.woff');
+  src: url('webfonts/Redaction20-Regular.woff');
 }
 
 @font-face {
