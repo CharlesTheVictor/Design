@@ -37,12 +37,14 @@ $('document').ready(function(){
 		 $('.module1, .module2, .module3, .module4, .module5, .module6, .module7, .module8, .module9, .module10, .module11, .module12, .module13, .module14, .module15, .module16, .module17, .module18').show();
 	}, );
 
-	$(".BackArrow").click(function() {
-		 $(this).hide();
+	$(".LeftTitle").click(function() {
+		location.reload();
 		 $('.grid').removeClass('scale');
-		 $(".WorkDESC").hide();
+		 $('.VANGUARD_DESC, .STRESSSUCKS_DESC, .POLARIS_DESC, .SOLLEWITT_DESC, .ITRAINED_DESC, .BADASSBAUHAUS_DESC').removeClass('CenterText');
 		 $('.WorkReal').removeClass('IMGscale');
+		 $('#carousel_image img').removeClass('carouselscale');
 		 $('div[class^="module"]').removeClass('IMGscale');
+		 $('.carousel_button').hide();
 		 $('.module1, .module2, .module3, .module4, .module5, .module6, .module7, .module8, .module9, .module10, .module11, .module12, .module13, .module14, .module15, .module16, .module17, .module18').show();
 	}, );
 
