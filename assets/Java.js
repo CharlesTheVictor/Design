@@ -40,7 +40,7 @@ $('document').ready(function(){
 	$(".LeftTitle").click(function() {
 		location.reload();
 		 $('.grid').removeClass('scale');
-		 $('.VANGUARD_DESC, .STRESSSUCKS_DESC, .POLARIS_DESC, .SOLLEWITT_DESC, .ITRAINED_DESC, .BADASSBAUHAUS_DESC').removeClass('CenterText');
+		 $('.VANGUARD_DESC, .STRESSSUCKS_DESC, .POLARIS_DESC, .SOLLEWITT_DESC, .ITRAINED_DESC, .BADASSBAUHAUS_DESC, .FACEREC_DESC').removeClass('CenterText');
 		 $('.WorkReal').removeClass('IMGscale');
 		 $('#carousel_image img').removeClass('carouselscale');
 		 $('div[class^="module"]').removeClass('IMGscale');
@@ -54,7 +54,7 @@ $('document').ready(function(){
 			 $('.grid').addClass('scale');
 			 $('.WorkReal').addClass('IMGscale');
 			 $('.VANGUARD_DESC').addClass('CenterText');
-			 $('.STRESSSUCKS_DESC, .POLARIS_DESC, .SOLLEWITT_DESC, .ITRAINED_DESC, .BADASSBAUHAUS_DESC').removeClass('CenterText');
+			 $('.STRESSSUCKS_DESC, .POLARIS_DESC, .SOLLEWITT_DESC, .ITRAINED_DESC, .BADASSBAUHAUS_DESC, .FACEREC_DESC').removeClass('CenterText');
 			 $('#carousel_image img').addClass('carouselscale');
 			 $('div[class^="module"]').addClass('IMGscale');
 			 $('.module1, .carousel_button').show();
@@ -67,7 +67,7 @@ $('document').ready(function(){
 			 $('.grid').addClass('scale');
 			 $('.WorkReal').addClass('IMGscale');
 			 $('.STRESSSUCKS_DESC').addClass('CenterText');
-			 $('.VANGUARD_DESC, .POLARIS_DESC, .SOLLEWITT_DESC, .ITRAINED_DESC, .BADASSBAUHAUS_DESC').removeClass('CenterText');
+			 $('.VANGUARD_DESC, .POLARIS_DESC, .SOLLEWITT_DESC, .ITRAINED_DESC, .BADASSBAUHAUS_DESC, .FACEREC_DESC').removeClass('CenterText');
 			 $('#carousel_image img').addClass('carouselscale');
 			 $('div[class^="module"]').addClass('IMGscale');
 			 $('.module2, .carousel_button').show();
@@ -80,7 +80,7 @@ $('document').ready(function(){
 			 $('.grid').addClass('scale');
 			 $('.WorkReal').addClass('IMGscale');
 			 $('.POLARIS_DESC').addClass('CenterText');
-			 $('.VANGUARD_DESC, .STRESSSUCKS_DESC, .SOLLEWITT_DESC, .ITRAINED_DESC, .BADASSBAUHAUS_DESC').removeClass('CenterText');
+			 $('.VANGUARD_DESC, .STRESSSUCKS_DESC, .SOLLEWITT_DESC, .ITRAINED_DESC, .BADASSBAUHAUS_DESC, .FACEREC_DESC').removeClass('CenterText');
 			 $('#carousel_image img').addClass('carouselscale');
 			 $('div[class^="module"]').addClass('IMGscale');
 			 $('.module3, .carousel_button').show();
@@ -93,7 +93,7 @@ $('document').ready(function(){
 			 $('.grid').addClass('scale');
 			 $('.WorkReal').addClass('IMGscale');
 			 $('.SOLLEWITT_DESC').addClass('CenterText');
-			 $('.VANGUARD_DESC, .STRESSSUCKS_DESC, .POLARIS_DESC, .ITRAINED_DESC, .BADASSBAUHAUS_DESC').removeClass('CenterText');
+			 $('.VANGUARD_DESC, .STRESSSUCKS_DESC, .POLARIS_DESC, .ITRAINED_DESC, .BADASSBAUHAUS_DESC, .FACEREC_DESC').removeClass('CenterText');
 			 $('#carousel_image img').addClass('carouselscale');
 			 $('div[class^="module"]').addClass('IMGscale');
 			 $('.module4, .carousel_button').show();
@@ -106,7 +106,7 @@ $('document').ready(function(){
 			 $('.grid').addClass('scale');
 			 $('.WorkReal').addClass('IMGscale');
 			 $('.ITRAINED_DESC').addClass('CenterText');
-			 $('.VANGUARD_DESC, .STRESSSUCKS_DESC, .POLARIS_DESC, .SOLLEWITT_DESC, .BADASSBAUHAUS_DESC').removeClass('CenterText');
+			 $('.VANGUARD_DESC, .STRESSSUCKS_DESC, .POLARIS_DESC, .SOLLEWITT_DESC, .BADASSBAUHAUS_DESC, .FACEREC_DESC').removeClass('CenterText');
 			 $('#carousel_image img').addClass('carouselscale');
 			 $('div[class^="module"]').addClass('IMGscale');
 			 $('.module5, .carousel_button').show();
@@ -119,12 +119,26 @@ $('document').ready(function(){
 			 $('.grid').addClass('scale');
 			 $('.WorkReal').addClass('IMGscale');
 			 $('.BADASSBAUHAUS_DESC').addClass('CenterText');
-			 $('.VANGUARD_DESC, .STRESSSUCKS_DESC, .POLARIS_DESC, .SOLLEWITT_DESC, .ITRAINED_DESC').removeClass('CenterText');
+			 $('.VANGUARD_DESC, .STRESSSUCKS_DESC, .POLARIS_DESC, .SOLLEWITT_DESC, .ITRAINED_DESC, .FACEREC_DESC').removeClass('CenterText');
 			 $('#carousel_image img').addClass('carouselscale');
 			 $('div[class^="module"]').addClass('IMGscale');
 			 $('.module6, .carousel_button').show();
 			 $('.module1, .module2, .module3, .module4, .module5, .module7, .module8, .module9, .module10, .module11, .module12, .module13, .module14, .module15, .module16, .module17, .module18').hide();
 	}, );
+
+	$(".IMGcarousel7").click(
+		 function() {
+			 $('.BackArrow').show();
+			 $('.grid').addClass('scale');
+			 $('.WorkReal').addClass('IMGscale');
+			 $('.FACEREC_DESC').addClass('CenterText');
+			 $('.VANGUARD_DESC, .STRESSSUCKS_DESC, .POLARIS_DESC, .SOLLEWITT_DESC, .ITRAINED_DESC, .BADASSBAUHAUS_DESC').removeClass('CenterText');
+			 $('#carousel_image img').addClass('carouselscale');
+			 $('div[class^="module"]').addClass('IMGscale');
+			 $('.module7, .carousel_button').show();
+			 $('.module1, .module2, .module3, .module4, .module5, .module6, .module8, .module9, .module10, .module11, .module12, .module13, .module14, .module15, .module16, .module17, .module18').hide();
+	}, );
+
 
 
 
